@@ -1,0 +1,84 @@
+h1 {
+    color: #63B8FF;
+    text-align: center;
+}
+
+.progress-circle {
+    position: relative;
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #ebebeb;
+}
+
+.progress-circle:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-animation: colorload 2s;
+    animation: colorload 2s;
+}
+
+.progress-circle span {
+    font-size: 1.5rem;
+    color: #495057;
+    font-weight: bold;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 82px;
+    margin-left: -30px;
+    margin-top: -30px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1;
+}
+
+.progress-circle span:after {
+    content: "%";
+    font-weight: 600;
+    color: #8b8b8b;
+}
+
+.progress-circle.progress-60:after {
+    background-image: linear-gradient(-54deg, #495057 50%, transparent 50%, transparent), linear-gradient(270deg, #495057 50%, #ebebeb 50%, #ebebeb);
+}
+
+.progress-circle.progress-75:after {
+    background-image: linear-gradient(0deg, #495057 50%, transparent 50%, transparent), linear-gradient(270deg, #495057 50%, #ebebeb 50%, #ebebeb);
+}
+
+.progress-circle.progress-80:after {
+    background-image: linear-gradient(18deg, #495057 50%, transparent 50%, transparent), linear-gradient(270deg, #495057 50%, #ebebeb 50%, #ebebeb);
+}
+
+.progress-circle.progress-85:after {
+    background-image: linear-gradient(36deg, #495057 50%, transparent 50%, transparent), linear-gradient(270deg, #495057 50%, #ebebeb 50%, #ebebeb);
+}
+
+.progress-circle.progress-90:after {
+    background-image: linear-gradient(54deg, #495057 50%, transparent 50%, transparent), linear-gradient(270deg, #495057 50%, #ebebeb 50%, #ebebeb);
+}
+
+.progress-circle.progress-100:after {
+    background-image: linear-gradient(90deg, #495057 50%, transparent 50%, transparent), linear-gradient(270deg, #495057 50%, #ebebeb 50%, #ebebeb);
+}
+
+@-webkit-keyframes colorload {
+    0% {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+}
+

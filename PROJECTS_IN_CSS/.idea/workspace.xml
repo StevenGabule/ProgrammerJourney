@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4dca767b-5ccf-4edb-bdc2-bff368ddfc1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/PROJECTS_IN_CSS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/John_paul.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS_GRID_LAYOUT/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS_GRID_LAYOUT/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS_GRID_LAYOUT/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS_GRID_LAYOUT/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/css/fonts/linea-basic-10.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/css/fonts/linea-basic-10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/css/fonts/linea-basic-10.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/css/fonts/linea-basic-10.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/css/icon-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/hero-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/logo-green-1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/logo-green-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/logo-green-small-1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/logo-green-small-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/nat-1-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/nat-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/nat-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/nat-2-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/nat-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/nat-3-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/nat-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/nat-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/nat-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/nat-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/nat-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/nat-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/nat-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/img/video.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/abstracts/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/abstracts/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/abstracts/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/base/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/base/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/components/_bg-videos.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/components/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/components/_composition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/components/_feature-box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/components/_popup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/components/_story.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/layouts/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/layouts/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/layouts/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/layouts/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT1/sass/pages/_home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/chevron-thin-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/hotel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/hotel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/hotel-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/user-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/user-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/user-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/user-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/user-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/user-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/img/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/sass/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/sass/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/sass/component/_components.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT2/sass/layout/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/gal-9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/hero.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/house-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/house-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/house-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/house-4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/house-5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/house-6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/logo-bbc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/logo-bi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/logo-forbes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/logo-techcrunch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/realtor-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/realtor-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/realtor-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/story-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/story-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/img/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/sass/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/sass/_features.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/sass/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/sass/_gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/sass/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/sass/_homes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/sass/_realtors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/sass/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/sass/_story.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/sass/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT3/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/11_31de4dc6-2b14-4037-b3d5-c921562229cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/14_eabcb043-e87b-4bee-a4ae-81a18cd8e7d4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/16_b71cc9c6-e77f-41ae-b707-d476578f9728.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/collection/2_grande.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/collection/6_grande.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/collection/7_grande.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/10_6f3e3dc8-6014-488c-8c86-ed29e58e6ff2_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/14_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/15_d82e7835-56d2-4441-b83e-f4250f5af61c_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/17_large (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/17_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/18_ed1670cc-c418-4ae6-bc86-4b98e40bac52_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/19_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/1_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/20_ab7224c1-cfa7-4fad-a1dd-a39df0db432b_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/21_f0f36598-8762-4555-b195-020f9511cddf_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/22_9babadf3-b434-4797-b687-0ea3c023f623_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/23_4c1b1b05-6b37-4890-8d59-34d2dcd17f92_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/24_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/2_71b4ae00-febc-405f-aace-d97e92c1a6ea_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/4_e1c7ae71-51d5-4307-bfda-7a7494e9f1a5_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/5_a41cb396-64fa-41d3-a081-a6df3d70b09e_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/6_31a24732-e319-420a-8256-51ad8f740fbb_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/7_78694343-be4b-4360-9df1-bef92542e092_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/8_b841e9b8-5827-4132-91e0-7e8e2aa4f0f2_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/banner-1_ed660e35-6695-4695-b931-b08c41a95ecd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT4/img/products/banner-2_a7a277b5-c66b-418f-9e3e-a676cbecb68a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PERSONAL_PORTFOLIO/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PERSONAL_PORTFOLIO/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-580143535">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="JPG" value="1" />
+          <entry key="css" value="24" />
+          <entry key="html" value="17" />
+          <entry key="js" value="2" />
+          <entry key="json" value="1" />
+          <entry key="png" value="2" />
+          <entry key="rnc" value="1" />
+          <entry key="scss" value="3" />
+          <entry key="svg" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="24" />
+          <entry key="HTML" value="17" />
+          <entry key="Image" value="3" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="2" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="SCSS" value="3" />
+          <entry key="SVG" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="3704" />
+          <entry key="html" value="4630" />
+          <entry key="js" value="47" />
+          <entry key="json" value="9" />
+          <entry key="scss" value="6" />
+          <entry key="svg" value="135" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="3704" />
+          <entry key="HTML" value="4630" />
+          <entry key="JSON" value="9" />
+          <entry key="JavaScript" value="47" />
+          <entry key="SCSS" value="6" />
+          <entry key="SVG" value="135" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.purejscarousel</find>
+      <find>.slide</find>
+      <find>.pure-js-carousel-btn</find>
+      <find>.active .pure-js-carousel-dot-btn</find>
+      <find>programming-skill</find>
+      <find>.progress-circle</find>
+      <find>.skill-level h2</find>
+      <find>.progress-circle span</find>
+      <find>.programming-name</find>
+      <find>Developers</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/PERSONAL_PORTFOLIO" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PERSONAL_PORTFOLIO/sample.html" />
+        <option value="$PROJECT_DIR$/PERSONAL_PORTFOLIO/css/purejscarousel.css" />
+        <option value="$PROJECT_DIR$/PERSONAL_PORTFOLIO/js/scripting.js" />
+        <option value="$PROJECT_DIR$/PERSONAL_PORTFOLIO/css/progress-circle.css" />
+        <option value="$PROJECT_DIR$/PROJECT3/sass/_base.scss" />
+        <option value="$PROJECT_DIR$/PROJECT3/index.html" />
+        <option value="$PROJECT_DIR$/PROJECT3/img/sprite.svg" />
+        <option value="$PROJECT_DIR$/PROJECT3/css/style.css" />
+        <option value="$PROJECT_DIR$/PROJECT3/sass/_homes.scss" />
+        <option value="$PROJECT_DIR$/PERSONAL_PORTFOLIO/img/sprite.svg" />
+        <option value="$PROJECT_DIR$/PROJECT1/index.html" />
+        <option value="$PROJECT_DIR$/PERSONAL_PORTFOLIO/css/style.css" />
+        <option value="$PROJECT_DIR$/PERSONAL_PORTFOLIO/composer.json" />
+        <option value="$PROJECT_DIR$/PERSONAL_PORTFOLIO/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PROJECTS_IN_CSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PROJECTS_IN_CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\PROJECTS_IN_CSS\PERSONAL_PORTFOLIO\img" />
+      <recent name="D:\xampp\htdocs\PROJECTS_IN_CSS\PERSONAL_PORTFOLIO\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\PROJECTS_IN_CSS\PERSONAL_PORTFOLIO\projects\dreamhaven" />
+      <recent name="D:\xampp\htdocs\PROJECTS_IN_CSS\PERSONAL_PORTFOLIO\projects\hotel" />
+      <recent name="D:\xampp\htdocs\PROJECTS_IN_CSS\PERSONAL_PORTFOLIO\projects\outdoor" />
+      <recent name="D:\xampp\htdocs\PROJECTS_IN_CSS\PERSONAL_PORTFOLIO\projects\nexter" />
+      <recent name="D:\xampp\htdocs\PROJECTS_IN_CSS\PERSONAL_PORTFOLIO\projects\mommy-ambol" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PROJECTS_IN_CSS/PROJECT1/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PROJECTS_IN_CSS/PROJECT2/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PROJECTS_IN_CSS/PROJECT3/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PROJECTS_IN_CSS/PERSONAL_PORTFOLIO/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="sample.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PROJECTS_IN_CSS/PERSONAL_PORTFOLIO/sample.html">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.sample.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="JavaScript Debug.index.html (2)" />
+      <item itemvalue="JavaScript Debug.index.html (3)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.sample.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dca767b-5ccf-4edb-bdc2-bff368ddfc1f" name="Default Changelist" comment="" />
+      <created>1553486569538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553486569538</updated>
+      <workItem from="1553486571137" duration="9959000" />
+      <workItem from="1553532669952" duration="9926000" />
+      <workItem from="1553559166619" duration="12054000" />
+      <workItem from="1553583812448" duration="6289000" />
+      <workItem from="1553641117625" duration="1446000" />
+      <workItem from="1553652597666" duration="1561000" />
+      <workItem from="1553750203801" duration="421000" />
+      <workItem from="1553941213574" duration="11000" />
+      <workItem from="1555229695762" duration="24789000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="66456000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15125495" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006605" side_tool="true" weight="0.3288889" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993395" weight="0.66962963" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PERSONAL_PORTFOLIO/sample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="118" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PERSONAL_PORTFOLIO/css/purestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PERSONAL_PORTFOLIO/js/scripting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6305">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PERSONAL_PORTFOLIO/css/progress-circle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PERSONAL_PORTFOLIO/css/purejscarousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="105" column="17" lean-forward="true" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECT3/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="404" column="13" lean-forward="true" selection-start-line="404" selection-start-column="13" selection-end-line="404" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECT3/img/sprite.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECT3/sass/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="47" column="24" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECT3/sass/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="49" column="56" lean-forward="true" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PERSONAL_PORTFOLIO/img/file-document-outline.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PERSONAL_PORTFOLIO/img/file-document-box-outline.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PERSONAL_PORTFOLIO/img/sprite.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECT3/sass/_homes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="79" selection-start-line="79" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECT1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECT2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJECT3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+          <folding>
+            <element signature="n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#section#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PERSONAL_PORTFOLIO/projects/deped/about.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PERSONAL_PORTFOLIO/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PERSONAL_PORTFOLIO/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="365" column="21" selection-start-line="365" selection-start-column="21" selection-end-line="365" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PERSONAL_PORTFOLIO/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="242" column="23" lean-forward="true" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

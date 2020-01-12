@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grid Learning</title>
+    <style>
+        #grid {
+            display: grid;
+            grid-template-rows: repeat(10, [R] 1.5em);
+            grid-template-columns: 2em repeat(5, [col-A] 5em [col-B] 5em) 2em;
+        }
+        .one {
+            background-color: crimson;
+            grid-row: R 3 / 7;
+            grid-column: col-B / span 2;
+        }
+        .two {
+            background-color: greenyellow;
+            grid-row: R / span R 2;
+            grid-column: col-A 3 / span 2 col-A;
+        }
+        .three {
+            background-color: gainsboro;
+            grid-row: 6;
+            grid-column: col-A -2;
+        }
+    </style>
+</head>
+<body>
+    <div id="grid">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+</body>
+</html>

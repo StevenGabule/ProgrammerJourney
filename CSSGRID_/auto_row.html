@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grid Practice</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: #ddd;
+        }
+
+        .item {
+            /*width: 200px;*/
+            background-color: beige;
+            color: #ffc3b1;
+            font-size: 34px;
+            -webkit-border-radius: 16px;
+            -moz-border-radius: 16px;
+            border-radius: 16px;
+            padding: 20px;
+        }
+
+        .item:nth-child(even) {
+            background-color: aliceblue;
+        }
+
+        .container {
+            margin: auto;
+            max-width: 1200px;
+            background-color: white;
+        }
+
+        .grid {
+            max-width: 1200px;
+            display: grid;
+            grid-template-rows: 100px 100px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 15px;
+            grid-auto-columns: 1fr;
+            grid-auto-flow: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+            <div class="item">10</div>
+            <div class="item">11</div>
+            <div class="item">12</div>
+        </div>
+    </div>
+</body>
+</html>

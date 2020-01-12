@@ -1,0 +1,38 @@
+/*  
+ *
+ * pages styles
+ * of the page
+ * 
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #6e859c;
+	padding: 0;
+	margin: 0;
+	background: #e8e9e9;
+}
+
+.grid {
+	background: #fff;
+	border-radius: 0.285em;
+	box-shadow: 0 0.1em 0 0 rgba(0,0,0,0.1);
+	
+
+	max-width: 800px;
+	margin: 5% auto;
+	display: grid;
+	grid-template-columns: 200px auto 200px;
+	grid-template-rows: 100px 200px;
+	grid-auto-rows: minmax(150px auto);
+	grid-auto-flow: column;
+}
+
+
+

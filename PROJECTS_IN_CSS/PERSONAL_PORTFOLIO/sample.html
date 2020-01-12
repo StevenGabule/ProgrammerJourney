@@ -1,0 +1,326 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PureJSCarousel Examples</title>
+    <link href="https://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+    <style>
+        *,
+        *:after,
+        *:before {
+            box-sizing: border-box;
+        }
+
+        body { background-color:#9E9E9E; color:#fff;}
+
+        section {
+            border-bottom: 1px solid;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .carousel {
+            margin: 50px auto;
+            overflow: hidden;
+            position: relative;
+            width: 240px;
+        }
+
+        @media (min-width: 480px) {
+            .carousel {
+                width: 360px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .carousel {
+                width: 600px;
+            }
+        }
+
+        .carousel:before,
+        .carousel:after {
+            content: "";
+            display: table;
+        }
+
+        .carousel:after {
+            clear: both;
+        }
+
+        .slide {
+            background: #F44336;
+            border: 10px solid #fff;
+            color: #fff;
+            float: left;
+            font-size: 20px;
+            height: 120px;
+            line-height: 5;
+            text-align: center;
+            width: 120px;
+        }
+
+        .pure-js-carousel-btn {
+            background: transparent;
+            border: 0;
+            box-shadow: none;
+            cursor: pointer;
+            height: 20px;
+            margin-top: -35px;
+            position: absolute;
+            top: 50%;
+            width: 20px;
+        }
+
+        .pure-js-carousel-btn-next {
+            border-bottom: 3px solid #000;
+            border-right: 3px solid #000;
+            right: 5px;
+            -moz-transform: rotate(315deg);
+            -webkit-transform: rotate(315deg);
+            transform: rotate(315deg);
+        }
+
+        .pure-js-carousel-btn-prev {
+            border-bottom: 3px solid #000;
+            border-left: 3px solid #000;
+            left: 5px;
+            -moz-transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+        .pure-js-carousel-dots {
+            float: left;
+            margin-top: 15px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .pure-js-carousel-dot {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        .pure-js-carousel-dot-btn {
+            background: green;
+            border-radius: 50%;
+            height: 20px;
+            width: 20px;
+        }
+
+        .active .pure-js-carousel-dot-btn {
+            background: blue;
+        }
+    </style>
+    <link href="pure-js-carousel.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<section>
+    <h1>Default</h1>
+    <div class="carousel" id="carousel-default">
+        <div class="slide">Slide 1</div>
+        <div class="slide">Slide 2</div>
+        <div class="slide">Slide 3</div>
+        <div class="slide">Slide 4</div>
+        <div class="slide">Slide 5</div>
+        <div class="slide">Slide 6</div>
+        <div class="slide">Slide 7</div>
+        <div class="slide">Slide 8</div>
+        <div class="slide">Slide 9</div>
+        <div class="slide">Slide 10</div>
+        <div class="slide">Slide 11</div>
+        <div class="slide">Slide 12</div>
+        <div class="slide">Slide 13</div>
+        <div class="slide">Slide 14</div>
+        <div class="slide">Slide 15</div>
+        <div class="slide">Slide 16</div>
+        <div class="slide">Slide 17</div>
+        <div class="slide">Slide 18</div>
+    </div>
+    <div style="margin: 0 0 30px; text-align: center;">
+        <button id="destroy-carousel-default" type="button">Destroy</button>
+        <button id="go-to-carousel-default" type="button">Go to #3</button>
+        <button id="go-to-prev-carousel-default" type="button">Go to prev</button>
+        <button id="go-to-next-carousel-default" type="button">Go to next</button>
+        <button id="disable-control-carousel-default" type="button">Disable Control</button>
+        <button id="enable-control-carousel-default" type="button">Enable Control</button>
+        <button id="start-autoplay-carousel-default" type="button">Start autoplay</button>
+        <button id="stop-autoplay-carousel-default" type="button">Stop autoplay</button>
+    </div>
+</section>
+
+<section>
+    <h1>One by one</h1>
+    <div class="carousel" id="carousel-one-by-one">
+        <div class="slide">Slide 1</div>
+        <div class="slide">Slide 2</div>
+        <div class="slide">Slide 3</div>
+        <div class="slide">Slide 4</div>
+        <div class="slide">Slide 5</div>
+        <div class="slide">Slide 6</div>
+        <div class="slide">Slide 7</div>
+        <div class="slide">Slide 8</div>
+        <div class="slide">Slide 9</div>
+        <div class="slide">Slide 10</div>
+        <div class="slide">Slide 11</div>
+        <div class="slide">Slide 12</div>
+        <div class="slide">Slide 13</div>
+        <div class="slide">Slide 14</div>
+        <div class="slide">Slide 15</div>
+        <div class="slide">Slide 16</div>
+        <div class="slide">Slide 17</div>
+        <div class="slide">Slide 18</div>
+    </div>
+</section>
+
+<section>
+    <h1>One by one (infinite)</h1>
+    <div class="carousel" id="carousel-one-by-one-infinite">
+        <div class="slide">Slide 1</div>
+        <div class="slide">Slide 2</div>
+        <div class="slide">Slide 3</div>
+        <div class="slide">Slide 4</div>
+        <div class="slide">Slide 5</div>
+        <div class="slide">Slide 6</div>
+        <div class="slide">Slide 7</div>
+        <div class="slide">Slide 8</div>
+        <div class="slide">Slide 9</div>
+        <div class="slide">Slide 10</div>
+        <div class="slide">Slide 11</div>
+        <div class="slide">Slide 12</div>
+        <div class="slide">Slide 13</div>
+        <div class="slide">Slide 14</div>
+        <div class="slide">Slide 15</div>
+        <div class="slide">Slide 16</div>
+        <div class="slide">Slide 17</div>
+        <div class="slide">Slide 18</div>
+    </div>
+</section>
+
+<section>
+    <h1>Infinite</h1>
+    <div class="carousel" id="carousel-infinite">
+        <div class="slide">Slide 1</div>
+        <div class="slide">Slide 2</div>
+        <div class="slide">Slide 3</div>
+        <div class="slide">Slide 4</div>
+        <div class="slide">Slide 5</div>
+        <div class="slide">Slide 6</div>
+        <div class="slide">Slide 7</div>
+        <div class="slide">Slide 8</div>
+        <div class="slide">Slide 9</div>
+        <div class="slide">Slide 10</div>
+        <div class="slide">Slide 11</div>
+        <div class="slide">Slide 12</div>
+        <div class="slide">Slide 13</div>
+        <div class="slide">Slide 14</div>
+        <div class="slide">Slide 15</div>
+        <div class="slide">Slide 16</div>
+        <div class="slide">Slide 17</div>
+        <div class="slide">Slide 18</div>
+    </div>
+</section>
+
+<section>
+    <h1>Autoplay</h1>
+    <div class="carousel" id="carousel-autoplay">
+        <div class="slide">Slide 1</div>
+        <div class="slide">Slide 2</div>
+        <div class="slide">Slide 3</div>
+        <div class="slide">Slide 4</div>
+        <div class="slide">Slide 5</div>
+        <div class="slide">Slide 6</div>
+        <div class="slide">Slide 7</div>
+        <div class="slide">Slide 8</div>
+        <div class="slide">Slide 9</div>
+        <div class="slide">Slide 10</div>
+        <div class="slide">Slide 11</div>
+        <div class="slide">Slide 12</div>
+        <div class="slide">Slide 13</div>
+        <div class="slide">Slide 14</div>
+        <div class="slide">Slide 15</div>
+        <div class="slide">Slide 16</div>
+        <div class="slide">Slide 17</div>
+        <div class="slide">Slide 18</div>
+    </div>
+</section>
+
+<script src="js/scripting.js"></script>
+<script>
+    var carouselDefault = new PureJSCarousel({
+        carousel: '#carousel-default',
+        slide: '.slide'
+    });
+
+    var carouselOneByOne = new PureJSCarousel({
+        carousel: '#carousel-one-by-one',
+        slide: '.slide',
+        oneByOne: true
+    });
+
+    var carouselOneByOne = new PureJSCarousel({
+        carousel: '#carousel-one-by-one-infinite',
+        slide: '.slide',
+        oneByOne: true,
+        infinite: true
+    });
+
+    var carouselInfinite = new PureJSCarousel({
+        carousel: '#carousel-infinite',
+        slide: '.slide',
+        infinite: true
+    });
+
+    var carouselAutoplay = new PureJSCarousel({
+        carousel: '#carousel-autoplay',
+        slide: '.slide',
+        infinite: true,
+        autoplay: true
+    });
+
+    document.getElementById('destroy-carousel-default').onclick = function() {
+        carouselDefault.destroy();
+        var newSlide = document.createElement('div');
+        newSlide.className = 'slide';
+        newSlide.innerHTML = 'Slide 19';
+        document.getElementById('carousel-default').appendChild(newSlide);
+    };
+
+    document.getElementById('go-to-carousel-default').onclick = function() {
+        carouselDefault.goTo(2);
+    };
+
+    document.getElementById('go-to-prev-carousel-default').onclick = function() {
+        carouselDefault.goToPrev();
+    };
+
+    document.getElementById('go-to-next-carousel-default').onclick = function() {
+        carouselDefault.goToNext();
+    };
+
+    document.getElementById('disable-control-carousel-default').onclick = function() {
+        carouselDefault.disableControl();
+    };
+
+    document.getElementById('enable-control-carousel-default').onclick = function() {
+        carouselDefault.enableControl();
+    };
+
+    document.getElementById('start-autoplay-carousel-default').onclick = function() {
+        carouselDefault.startAutoplay('next');
+    };
+
+    document.getElementById('stop-autoplay-carousel-default').onclick = function() {
+        carouselDefault.stopAutoplay();
+    };
+
+</script>
+</body>
+</html>

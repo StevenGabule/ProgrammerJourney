@@ -1,0 +1,54 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+section {
+  border-bottom: 1px solid;
+}
+
+h1 {
+  text-align: center;
+}
+
+.carousel {
+  margin: 50px auto;
+  overflow: hidden;
+  position: relative;
+  width: 240px;
+}
+
+@media (min-width: 768px) {
+  .carousel {
+    width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel {
+    width: 960px;
+  }
+}
+
+.carousel:before,
+.carousel:after {
+  content: "";
+  display: table;
+}
+
+.carousel:after {
+  clear: both;
+}
+
+.slide {
+  background: #333;
+  border: 10px solid #fff;
+  color: #fff;
+  float: left;
+  font-size: 20px;
+  height: 240px;
+  line-height: 11;
+  text-align: center;
+  width: 240px;
+}

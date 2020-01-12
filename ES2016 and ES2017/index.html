@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ES2016 and ES2017</title>
+	<link rel="stylesheet" href="">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		/*
+			ES2016 + ES2017 Objectives
+			new features
+			new string methods
+			asynchronous code using ES2017 async functions
+			spread and rest operator
+		*/
+		// exponentiation operator **
+		//ES2015
+		var calculatedNumber = Math.pow(2,4);
+		calculatedNumber; // 16
+
+		//ES2016
+		var calculatedNumber = 2**4;
+		calculatedNumber; // 16
+
+		//ES2015
+		var nums = [1,2,3,4];
+		var total = 2;
+		for (let i = 0; i < nums.length; i++) {
+			total = Math.pow(total,nums[i]);
+		}
+
+		//ES2016
+		var nums = [1,2,3,4];
+		var total = 2;
+		for(let i = 0; i < nums.length; i++) {
+			total **= nums[i];
+		}
+
+		//[].includes()
+		//ES2015
+		var nums = [1,2,3,4,5];
+		nums.indexOf(3) > -1; 	// true
+		nums.indexOf(44) > -1; 	// false	
+
+		//ES2016
+		var nums = [1,2,3,4,5];
+		nums.includes(3); // true
+		nums.includes(44); // false	
+
+		async function getMovieData() {
+			console.log("Starting...");
+			var movieData = await $.getJSON(`https://omdbapi.com?titanic&apikey=thewdb`);
+			// this line does not run until the promise is resolved!
+			console.log(movieData);
+			console.log("All done!!!");
+		}
+		// getMovieData();
+
+		// EXERCISE SOLUTION ASYNC FUNCTIONS
+		async function getMostFollower(...usernames) {
+			let baseURL = "https://api.github.com/users/";
+			let urls = usernames.map(username => $.getJSON(baseURL + username));
+			let results = await Promise.all(urls);
+			let max = results.sort((a,b) => a.followers < b.followers)[0];
+			return `${max.name} has the most followers with ${max.followers}`;
+		}
+
+		async function starWarString(id) {
+			let str = '';
+			let results = await $.getJSON(`https://swapi.co/api/people/${id}/`);
+			str += `${results.name} is featured in `;
+			let movies = results.films[0];
+			let moreResults = await $.getJSON(movies);
+			str += `${moreResults.title}, directed by ${moreResults.director}`;
+			let planetData = moreResults.planets[0];
+			let finalResults = await $.getJSON(planetData);
+			str += `and it takes place on ${finalResults.name}`;
+			return str;
+		}
+
+	</script>
+</body>
+</html>
