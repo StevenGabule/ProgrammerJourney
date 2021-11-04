@@ -3,7 +3,7 @@
   QUESTION 1
   Step 1
   Create a simple HTML table that has 3 rows and 2 columns.
- *
+
   Step 2
   Into the first column, enter labels for Firstname, Surname and ID Number and in the second column
   put in input fields where a user can enter their Firstname, Surname and ID Number.
@@ -14,7 +14,7 @@
   Step 4
   On the same page, take the submitted information and write a SQL query
   that will insert the posted information into a table called tbl_Person, that has columns
-  col_firstname, col_surname, col_idnumber.
+  col_firstname, col_surname, col_id_number.
 
   Note: It's optional whether you want to write code that connects to a database and code
   that inserts into the database. We just want to see the SQL query, that uses the posted
@@ -30,17 +30,14 @@ $password = "";
 $dbname = "php_db";
 
 // sanitize and remove cross-site scripting
-function dataInput($data) {
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
+function dataInput($data): string
+{
+    return htmlspecialchars(stripslashes(trim($data)));
 }
 
 if (isset($_POST['submit'])) {
-
     $firstname = dataInput($_POST['firstname']);
-    $surname = dataInput($_POST['surname']);
+    $surname   = dataInput($_POST['surname']);
     $id_number = dataInput($_POST['id_number']);
     try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

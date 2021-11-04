@@ -8,7 +8,7 @@
 	//echo $book->getTitle() . ' ' . $book->getPrice();
 	//echo Book::getStore();
 	
-	$mag1 = new Magazine('PC World', 4.99, 'Octuber', '2016');
+	$mag1 = new Magazine('PC World', 4.99, 'October', '2016');
 	echo $mag1->getYear();
-?>
+
 

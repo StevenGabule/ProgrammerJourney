@@ -1,5 +1,5 @@
 <?php
-function double($i)
+function double($i): float|int
 {
     return $i * 2;
 }
